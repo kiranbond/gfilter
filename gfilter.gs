@@ -11,7 +11,6 @@
 // archive: archive the message
 
 var filters = [
-  // RegEx match against the raw contents of the email
   { id:"MyName", name: "MyJIRA", body: /Kiran Bondalapati/, inbox: true }, 
   { id:"HOT-Issue", name: "MyJIRA", subject: /HOT-Issue/i, inbox: true }, 
 ];
